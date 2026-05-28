@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ExchangeRates.Api/1.0.0": {
+        "dependencies": {
+          "ExchangeRates.Application": "1.0.0",
+          "ExchangeRates.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ExchangeRates.Api.dll": {}
+        }
+      },
+      "ExchangeRates.Application/1.0.0": {
+        "dependencies": {
+          "ExchangeRates.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ExchangeRates.Application.dll": {}
+        }
+      },
+      "ExchangeRates.Domain/1.0.0": {
+        "runtime": {
+          "ExchangeRates.Domain.dll": {}
+        }
+      },
+      "ExchangeRates.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ExchangeRates.Application": "1.0.0"
+        },
+        "runtime": {
+          "ExchangeRates.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExchangeRates.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExchangeRates.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExchangeRates.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExchangeRates.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

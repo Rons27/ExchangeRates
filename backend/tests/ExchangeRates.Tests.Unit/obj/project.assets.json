@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "ExchangeRates.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ExchangeRates.Application": "1.0.0",
+          "ExchangeRates.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ExchangeRates.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExchangeRates.Api.dll": {}
+        }
+      },
+      "ExchangeRates.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ExchangeRates.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ExchangeRates.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExchangeRates.Application.dll": {}
+        }
+      },
+      "ExchangeRates.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ExchangeRates.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExchangeRates.Domain.dll": {}
+        }
+      },
+      "ExchangeRates.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ExchangeRates.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ExchangeRates.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExchangeRates.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "sha512": "NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "ExchangeRates.Api/1.0.0": {
+      "type": "project",
+      "path": "../../src/ExchangeRates.Api/ExchangeRates.Api.csproj",
+      "msbuildProject": "../../src/ExchangeRates.Api/ExchangeRates.Api.csproj"
+    },
+    "ExchangeRates.Application/1.0.0": {
+      "type": "project",
+      "path": "../../src/ExchangeRates.Application/ExchangeRates.Application.csproj",
+      "msbuildProject": "../../src/ExchangeRates.Application/ExchangeRates.Application.csproj"
+    },
+    "ExchangeRates.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../src/ExchangeRates.Domain/ExchangeRates.Domain.csproj",
+      "msbuildProject": "../../src/ExchangeRates.Domain/ExchangeRates.Domain.csproj"
+    },
+    "ExchangeRates.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../src/ExchangeRates.Infrastructure/ExchangeRates.Infrastructure.csproj",
+      "msbuildProject": "../../src/ExchangeRates.Infrastructure/ExchangeRates.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ExchangeRates.Api >= 1.0.0",
+      "ExchangeRates.Application >= 1.0.0",
+      "ExchangeRates.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ralfonso\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Python\\Project\\angular\\backend\\tests\\ExchangeRates.Tests.Unit\\ExchangeRates.Tests.Unit.csproj",
+      "projectName": "ExchangeRates.Tests.Unit",
+      "projectPath": "C:\\Python\\Project\\angular\\backend\\tests\\ExchangeRates.Tests.Unit\\ExchangeRates.Tests.Unit.csproj",
+      "packagesPath": "C:\\Users\\ralfonso\\.nuget\\packages\\",
+      "outputPath": "C:\\Python\\Project\\angular\\backend\\tests\\ExchangeRates.Tests.Unit\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ralfonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Api\\ExchangeRates.Api.csproj": {
+              "projectPath": "C:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Api\\ExchangeRates.Api.csproj"
+            },
+            "C:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Application\\ExchangeRates.Application.csproj": {
+              "projectPath": "C:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Application\\ExchangeRates.Application.csproj"
+            },
+            "C:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Infrastructure\\ExchangeRates.Infrastructure.csproj": {
+              "projectPath": "C:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Infrastructure\\ExchangeRates.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

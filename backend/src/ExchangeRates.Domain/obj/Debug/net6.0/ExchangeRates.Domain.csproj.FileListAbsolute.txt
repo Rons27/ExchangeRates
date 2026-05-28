@@ -1,0 +1,12 @@
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\bin\Debug\net6.0\ExchangeRates.Domain.deps.json
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\bin\Debug\net6.0\ExchangeRates.Domain.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\bin\Debug\net6.0\ExchangeRates.Domain.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.csproj.AssemblyReference.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.AssemblyInfoInputs.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.AssemblyInfo.cs
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.csproj.CoreCompileInputs.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\refint\ExchangeRates.Domain.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ref\ExchangeRates.Domain.dll

@@ -1,0 +1,17 @@
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Infrastructure.deps.json
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Infrastructure.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Infrastructure.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Application.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Domain.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Application.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Domain.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.csproj.AssemblyReference.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.AssemblyInfoInputs.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.AssemblyInfo.cs
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.csproj.CopyComplete
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\refint\ExchangeRates.Infrastructure.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ref\ExchangeRates.Infrastructure.dll

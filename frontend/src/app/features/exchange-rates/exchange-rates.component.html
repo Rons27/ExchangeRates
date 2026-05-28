@@ -1,0 +1,115 @@
+<section class="rates-page">
+
+  <header class="page-header">
+    <div class="page-header__text">
+  
+    </div>
+
+    <button
+      class="btn btn--primary"
+      (click)="loadRates()"
+      [disabled]="loading"
+      aria-label="Refresh rates">
+      <svg *ngIf="!loading" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+      </svg>
+      <svg *ngIf="loading" class="spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        stroke-width="2" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+      </svg>
+      {{ loading ? 'Refreshing…' : 'Refresh' }}
+    </button>
+  </header>
+
+  <div class="filters">
+    <div class="filters__group">
+      <label class="filters__label" for="dateFilter">Date</label>
+      <input
+        id="dateFilter"
+        type="date"
+        class="filters__input"
+        [(ngModel)]="dateFilter"
+        [max]="maxDate"
+        (change)="onDateChange()"
+        aria-label="Filter by date" />
+    </div>
+
+    <div class="filters__group filters__group--search">
+      <label class="filters__label" for="currencySearch">Search</label>
+      <input
+        id="currencySearch"
+        type="search"
+        class="filters__input"
+        [(ngModel)]="currencySearch"
+        (ngModelChange)="onCurrencySearchChange()"
+        placeholder="EUR, dollar, Eurozone…"
+        aria-label="Search by currency code or country" />
+    </div>
+
+    <button
+      *ngIf="dateFilter || currencySearch"
+      class="btn btn--ghost filters__clear"
+      (click)="clearFilters()"
+      aria-label="Clear all filters">
+      Clear filters
+    </button>
+  </div>
+
+  <app-loading-spinner *ngIf="loading" />
+
+  <app-error-message *ngIf="error && !loading" [error]="error" />
+
+  <div *ngIf="!loading && !error && response && !hasResults" class="empty-state">
+    <p>No rates match your search. <button class="btn-link" (click)="clearFilters()">Clear filters</button></p>
+  </div>
+
+  <div *ngIf="!loading && !error && hasResults" class="table-wrapper">
+    <table class="rates-table" aria-label="Exchange rates table">
+      <thead>
+        <tr>
+          <th scope="col" class="th-sortable" (click)="sort('currencyCode')"
+            [class.th--sorted]="sortField === 'currencyCode'"
+            [attr.aria-sort]="sortField === 'currencyCode' ? sortDir + 'ending' : 'none'">
+            Code
+            <span class="sort-icon" aria-hidden="true">{{ sortField === 'currencyCode' ? (sortDir === 'asc' ? '↑' : '↓') : '↕' }}</span>
+          </th>
+          <th scope="col" class="th-sortable" (click)="sort('country')"
+            [class.th--sorted]="sortField === 'country'"
+            [attr.aria-sort]="sortField === 'country' ? sortDir + 'ending' : 'none'">
+            Country / Region
+            <span class="sort-icon" aria-hidden="true">{{ sortField === 'country' ? (sortDir === 'asc' ? '↑' : '↓') : '↕' }}</span>
+          </th>
+          <th scope="col">Currency</th>
+          <th scope="col" class="th-right">Amount</th>
+          <th scope="col" class="th-right th-sortable" (click)="sort('rate')"
+            [class.th--sorted]="sortField === 'rate'"
+            [attr.aria-sort]="sortField === 'rate' ? sortDir + 'ending' : 'none'">
+            Rate (CZK)
+            <span class="sort-icon" aria-hidden="true">{{ sortField === 'rate' ? (sortDir === 'asc' ? '↑' : '↓') : '↕' }}</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rate of filteredRates; trackBy: trackByCode">
+          <td>
+            <span class="currency-badge">{{ rate.currencyCode }}</span>
+          </td>
+          <td>{{ rate.country }}</td>
+          <td class="td-muted">{{ rate.currency }}</td>
+          <td class="td-right td-muted">{{ rate.amount }}</td>
+          <td class="td-right td-rate">
+            {{ rate.rate | number:'1.2-4' }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="table-footer">
+      Showing {{ filteredRates.length }} of {{ response?.rates?.length ?? 0 }} currencies
+    </p>
+  </div>
+
+</section>

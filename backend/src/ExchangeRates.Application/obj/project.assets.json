@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ExchangeRates.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ExchangeRates.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExchangeRates.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExchangeRates.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ExchangeRates.Domain/ExchangeRates.Domain.csproj",
+      "msbuildProject": "../ExchangeRates.Domain/ExchangeRates.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ExchangeRates.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ralfonso\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Application\\ExchangeRates.Application.csproj",
+      "projectName": "ExchangeRates.Application",
+      "projectPath": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Application\\ExchangeRates.Application.csproj",
+      "packagesPath": "C:\\Users\\ralfonso\\.nuget\\packages\\",
+      "outputPath": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ralfonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj": {
+              "projectPath": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

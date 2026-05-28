@@ -1,0 +1,15 @@
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\bin\Debug\net5.0\ExchangeRates.Application.deps.json
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\bin\Debug\net5.0\ExchangeRates.Application.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\bin\Debug\net5.0\ref\ExchangeRates.Application.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\bin\Debug\net5.0\ExchangeRates.Application.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\bin\Debug\net5.0\ExchangeRates.Domain.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\bin\Debug\net5.0\ExchangeRates.Domain.pdb
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.csproj.AssemblyReference.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.AssemblyInfoInputs.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.AssemblyInfo.cs
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.csproj.CoreCompileInputs.cache
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.csproj.CopyComplete
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ref\ExchangeRates.Application.dll
+C:\Python\Project\angular\backend\src\ExchangeRates.Application\obj\Debug\net5.0\ExchangeRates.Application.pdb
