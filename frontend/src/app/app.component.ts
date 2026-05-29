@@ -18,7 +18,7 @@ import { RouterOutlet } from '@angular/router';
         <router-outlet />
       </main>
       <footer class="app-footer">
-        <p>Data sourced from the <a href="https://api.cnb.cz/cnbapi/swagger-ui.html" target="_blank" rel="noopener noreferrer">Czech National Bank API</a></p>
+    ExchangeRate Footer
       </footer>
     </div>
   `,

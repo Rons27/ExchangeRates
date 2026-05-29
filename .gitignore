@@ -1,0 +1,45 @@
+# Visual Studio and IDE files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.log
+*.vsidx
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+*/[Bb]in/
+*/[Oo]bj/
+
+# Rider
+.idea/
+
+# Node
+node_modules/
+/npm-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+
+# Angular
+/dist
+/out-tsc
+/.angular/cache
+/tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+~*.*
