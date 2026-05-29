@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj": {}
+    "C:\\Users\\RONNIE B ALFONSO JR\\Desktop\\assessment\\ExchangeRates\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj": {
+    "C:\\Users\\RONNIE B ALFONSO JR\\Desktop\\assessment\\ExchangeRates\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\RONNIE B ALFONSO JR\\Desktop\\assessment\\ExchangeRates\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj",
         "projectName": "ExchangeRates.Domain",
-        "projectPath": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj",
-        "packagesPath": "C:\\Users\\ralfonso\\.nuget\\packages\\",
-        "outputPath": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Domain\\obj\\",
+        "projectPath": "C:\\Users\\RONNIE B ALFONSO JR\\Desktop\\assessment\\ExchangeRates\\backend\\src\\ExchangeRates.Domain\\ExchangeRates.Domain.csproj",
+        "packagesPath": "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RONNIE B ALFONSO JR\\Desktop\\assessment\\ExchangeRates\\backend\\src\\ExchangeRates.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ralfonso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RONNIE B ALFONSO JR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -50,12 +60,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

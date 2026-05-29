@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XXhAdPoWidjfAGqo6hAc5V2ZJDuYtclBLs6ZCcTu9BEbPHCuwT73BA08OKGgE/0rETQ717Y6JuO5dDhdm93SsA==",
+  "dgSpecHash": "skCs7iaHlU4=",
   "success": true,
-  "projectFilePath": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Infrastructure\\ExchangeRates.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\RONNIE B ALFONSO JR\\Desktop\\assessment\\ExchangeRates\\backend\\src\\ExchangeRates.Infrastructure\\ExchangeRates.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

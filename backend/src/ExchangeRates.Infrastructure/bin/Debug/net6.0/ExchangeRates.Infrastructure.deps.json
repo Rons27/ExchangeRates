@@ -19,12 +19,18 @@
           "ExchangeRates.Domain": "1.0.0"
         },
         "runtime": {
-          "ExchangeRates.Application.dll": {}
+          "ExchangeRates.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ExchangeRates.Domain/1.0.0": {
         "runtime": {
-          "ExchangeRates.Domain.dll": {}
+          "ExchangeRates.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -10,3 +10,15 @@ C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\Exch
 C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\refint\ExchangeRates.Domain.dll
 C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.pdb
 C:\Python\Project\angular\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ref\ExchangeRates.Domain.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\bin\Debug\net6.0\ExchangeRates.Domain.deps.json
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\bin\Debug\net6.0\ExchangeRates.Domain.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\bin\Debug\net6.0\ExchangeRates.Domain.pdb
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.AssemblyInfoInputs.cache
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.AssemblyInfo.cs
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.csproj.CoreCompileInputs.cache
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.sourcelink.json
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\refint\ExchangeRates.Domain.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ExchangeRates.Domain.pdb
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Domain\obj\Debug\net6.0\ref\ExchangeRates.Domain.dll

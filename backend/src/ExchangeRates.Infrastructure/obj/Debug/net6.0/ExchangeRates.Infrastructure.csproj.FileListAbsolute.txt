@@ -15,3 +15,21 @@ C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net
 C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\refint\ExchangeRates.Infrastructure.dll
 C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.pdb
 C:\Python\Project\angular\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ref\ExchangeRates.Infrastructure.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Infrastructure.deps.json
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Infrastructure.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Infrastructure.pdb
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Application.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Domain.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Application.pdb
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\bin\Debug\net6.0\ExchangeRates.Domain.pdb
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.AssemblyInfo.cs
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.sourcelink.json
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\Exchange.C6648170.Up2Date
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\refint\ExchangeRates.Infrastructure.dll
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ExchangeRates.Infrastructure.pdb
+C:\Users\RONNIE B ALFONSO JR\Desktop\assessment\ExchangeRates\backend\src\ExchangeRates.Infrastructure\obj\Debug\net6.0\ref\ExchangeRates.Infrastructure.dll

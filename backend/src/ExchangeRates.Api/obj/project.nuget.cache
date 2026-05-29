@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1z6Vl5tvlcZWjDV0SIZO3ux/5tcINbavvor0jcshPJfzvtHC0+NfCd2Y2jZLGIyoDohF58DuUElJseRFOOCf2g==",
+  "dgSpecHash": "yNeeaw3qxU8=",
   "success": true,
-  "projectFilePath": "c:\\Python\\Project\\angular\\backend\\src\\ExchangeRates.Api\\ExchangeRates.Api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\RONNIE B ALFONSO JR\\Desktop\\assessment\\ExchangeRates\\backend\\src\\ExchangeRates.Api\\ExchangeRates.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\RONNIE B ALFONSO JR\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
